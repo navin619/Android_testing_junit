@@ -1,0 +1,86 @@
+Test cases
+
+@requirement: On application start the image should be displayed on the background and the text should be invisible
+
+Test case 1: textview should be invisible
+-check for the textview invisibility
+
+
+@requirement: On single tap the text should be visible on the center of the screen initally
+and the text should contain "Navin Chaganti ECE573 HW01"
+
+Text should be visible
+ * Test case 2: test Text should be visible
+ * perform single tap and check visibility
+
+
+text should disappear after 3 seconds
+ Test case 3: test the content of the text view
+ test the content of the text view by comparing "Navin Chaganti"+"\n"+"ECE573 HW01"
+
+ Test case 4:  test for position of text
+ check the coordinates of x and y
+
+Test case 5: test if the text disappears after 3 seconds
+perform single tap and wait for 4 seconds
+
+Test case 6:  test for the text visibility after 2 continuous taps
+- perform single tap twice	 
+
+ @requirements for long press
+ 1) On long press the position of the text should be the location the long press has occured
+ 2) The text should be visible 
+ 3) text should contain "Navin Chaganti ECE573 HW01"
+ 4)Text should disappear after 3 seconds
+ 5) rotation of the screen should not change the text display orientation
+ 6)single tap should function
+
+Test case 7: testing the visibility of the text within 2 seconds
+-perform a long press on the screen
+- test the visibility 
+
+Test case 8: testing the text visibility of the text view for 3 seconds
+-perform a long press on the screen
+- test the visibility of the text view 
+
+Test case 9: testing the single tap functionality after performing a long press
+-perform a long press on the screen
+-test the single tap functioality 
+
+Test case 10:  testing the text position for the long press by comparing it with its coordinates
+-perform a long press on the screen
+- compare the textview coordinates
+
+@ requirements :entirety test
+1)the textview should always be visible and should not get cut on the extreme ends.
+
+Test case 11: testing entirety of the text view on the left hand side
+-perform a long press on the extreme left
+-check the cordinates of the textview 
+
+Test case 12: testing entirety of the text view on the right hand side
+-perform a long press on the extreme right
+-check the cordinates of the textview 
+
+Double tap test cases:
+@requirement: Double tapping an anywhere on the screen should cause the text to
+come at the center 
+1)text should come in the center 
+2)text should be visible for 3 seconds
+3) text should contain the earlier text
+
+Test case 13:
+-perform a long press
+-implement a double tap on the long press coordinates
+-check the visibility of the text view 
+
+Test case 14:
+-perform a long press
+-implement a double tap on the long press coordinates
+-check the textview is located at the center of the screen 
+
+Test case 15 : Conent of the textview on double tap
+-perform a long press
+-implement a double tap on the long press coordinates
+-check the context of the textview
+
